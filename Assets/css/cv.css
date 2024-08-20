@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    background-color: aqua;
+}
+
+body{
+    background-color: black;
+}
