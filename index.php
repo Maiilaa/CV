@@ -34,7 +34,7 @@
                     </ul>
                 </div>
                 <div class="bg-light p-3 mt-4 rounded shadow-sm">
-                    <h4>Langues</h4>
+                    <h5>Langues</h5>
                     <ul>
                         <li>Français</li>
                         <li>Anglais</li>
@@ -45,9 +45,9 @@
 
             <div class="col-md-8">
                 <div class="bg-light p-4 rounded shadow-sm">
-                    <h3>Expériences Professionnelles</h3>
+                    <h2>Expériences Professionnelles</h2>
                     <div class="mt-4">
-                        <h5>My Zone de Talent</h5>
+                    <h6><strong>My Zone de Talent</strong></h6>
                         <p><strong>Réalisations :</strong></p>
                         <ul>
                             <li>Réalisation d’un site web en projet collectif</li>
@@ -57,7 +57,7 @@
                         </ul>
                     </div>
                     <div class="mt-4">
-                        <h5>BNP Paribas</h5>
+                        <strong>BNP Paribas</strong>
                         <p><strong>Fonctions :</strong></p>
                         <ul>
                             <li>Accueil de la clientèle</li>
@@ -71,8 +71,11 @@
                 <div class="bg-light p-4 mt-4 rounded shadow-sm">
                     <h3>Formations</h3>
                     <ul>
+                    <li></li>
+                    
                         <li>Licence Maths Info Éco</li>
                         <li>Baccalauréat Économique et Social Spécialité Mathématiques</li>
+                        <li></li>
                     </ul>
                 </div>
             </div>
