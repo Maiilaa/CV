@@ -1,13 +1,30 @@
+body {
+    background-color: #3c4daa;
+}
+
+h1, h3, h4, h5 {
+    color: #333;
+}
+
+p, ul, li {
+    font-size: 16px;
+    color: #555;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
 ul {
     list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-header{
-    background-color: aqua;
-}
-
-body{
-    background-color: black;
+    padding: 0;
 }
