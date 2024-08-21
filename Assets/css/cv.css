@@ -3,7 +3,9 @@ body {
 }
 
 h1{
-    color:#3c4daa;
+    color:white;
+    text-align: center;
+    margin-top: 1cm;
 }
 
 h2,h3,h4,h5{
@@ -33,6 +35,11 @@ ul {
     padding: 0;
 }
 
-li,ul{
+li,ul,p{
+    color:black;
+}
+
+a{
+    text-decoration: none;
     color:black;
 }
