@@ -1,45 +1,56 @@
 body {
     background-color: #3c4daa;
 }
-
-h1{
-    color:white;
+h1 {
+    color: white;
     text-align: center;
     margin-top: 1cm;
+    font-size: 250%;
 }
-
-h2,h3,h4,h5{
-    color:#7e8092;
+h2, h3, h4, h5 {
+    color: #7e8092;
 }
-
 p, ul {
     font-size: 16px;
     color: #555;
 }
-
 .container {
     max-width: 960px;
     margin: 0 auto;
 }
-
 .bg-light {
     background-color: #ffffff !important;
 }
-
 .shadow-sm {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
-
 ul {
     list-style-type: none;
     padding: 0;
 }
-
-li,ul,p{
-    color:black;
+li, ul, p {
+    color: black;
 }
-
-a{
+a {
     text-decoration: none;
-    color:black;
+    color: black;
+}
+.progress-bar-html { width: 90%; background-color: #3c4daa; }
+.progress-bar-css { width: 90%; background-color: #3c4daa; }
+.progress-bar-php { width: 50%; background-color: #3c4daa; }
+.progress-bar-github { width: 30%; background-color: #3c4daa; }
+.progress-bar-figma { width: 60%; background-color: #3c4daa; }
+.progress-bar-allemand { width: 30%; background-color: #3c4daa; }
+.progress-bar-français { width: 100%; background-color: #3c4daa; }
+.progress-bar-anglais { width: 50%; background-color: #3c4daa; }
+
+.icon-p {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
 }
