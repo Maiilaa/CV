@@ -5,7 +5,7 @@ h1 {
     color: white;
     text-align: center;
     margin-top: 1cm;
-    font-size: 250%;
+    font-size: 300%;
 }
 h2, h3, h4, h5 {
     color: #7e8092;
@@ -25,7 +25,7 @@ p, ul {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 ul {
-    list-style-type: none;
+    margin-left: 1cm;
     padding: 0;
 }
 li, ul, p {
@@ -40,9 +40,10 @@ a {
 .progress-bar-php { width: 50%; background-color: #3c4daa; }
 .progress-bar-github { width: 30%; background-color: #3c4daa; }
 .progress-bar-figma { width: 60%; background-color: #3c4daa; }
-.progress-bar-allemand { width: 30%; background-color: #3c4daa; }
 .progress-bar-français { width: 100%; background-color: #3c4daa; }
 .progress-bar-anglais { width: 50%; background-color: #3c4daa; }
+.progress-bar-allemand { width: 30%; background-color: #3c4daa; }
+.progress-bar-packoffice{ width: 90%; background-color: #3c4daa;}
 
 .icon-p {
     font-weight: bold;
@@ -54,3 +55,23 @@ a {
     width: 24px;
     height: 24px;
 }
+.icon-plesk {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.soustitre{
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-weight: 350;
+}
+

@@ -7,24 +7,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="Assets/css/cv.css?t=<?=time()?>"/>
-    <style>
-        .icon-plesk {
-            width: 24px;
-            height: 24px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #007bff;
-            color: white;
-            border-radius: 50%;
-            font-size: 16px;
-            font-weight: bold;
-        }
-    </style>
+    
 </head>
 <body>
-    <header class="text-center py-4 bg-light">
-        <h1>MAÏLA ZIRARI</h1>
+    <header>
+        <h1><strong>MAÏLA ZIRARI</strong></h1>
+        <p class="soustitre">Apprenti Développeur Web</p>
     </header>
     <main>
         <div class="container mt-5">
@@ -38,7 +26,6 @@
                         <a href="https://github.com/Maiilaa" class="github">
                             <p><strong><i class="bi bi-github"></i></strong> Mon Github</p>
                         </a>
-                        <!-- Icône de Plesk remplacée par la lettre P -->
                         <a href="https://maila-zirari.students-laplateforme.io" class="">
                             <p><strong><span class="icon-plesk">P</span></strong> Mon Plesk</p>
                         </a>
@@ -60,6 +47,9 @@
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-figma" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Figma</div>
                         </div>
+                        <div class="progress mb-2">
+                            <div class="progress-bar progress-bar-packoffice" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">PackOffice</div>
+                        </div>
                     </div>
                     <div class="bg-light p-3 mt-4 rounded shadow-sm">
                         <h5>Langues</h5>
@@ -79,7 +69,7 @@
                         <h2>Expériences Professionnelles</h2>
                         <div class="mt-4">
                             <h6><strong>L'Atelier</strong></h6>
-                            <p><strong>Fonctions :</strong></p>
+                            <p class="date">Juin 2024</p>
                             <ul>
                                 <li>réalisation de site web en projet collectif</li>
                                 <li>gestion de projet</li>
@@ -88,7 +78,7 @@
                         </div>
                         <div class="mt-4">
                             <strong>My Zone de Talent</strong>
-                            <p><strong>Réalisations :</strong></p>
+                            <p class="date">Janvier 2024</p>
                             <ul>
                                 <li>Réalisation d’un site web en projet collectif</li>
                                 <li>Réalisation de maquette UX/UI</li>
@@ -98,7 +88,7 @@
                         </div>
                         <div class="mt-4">
                             <strong>BNP Paribas</strong>
-                            <p><strong>Fonctions :</strong></p>
+                            <p class="date">Janvier 2018</p>
                             <ul>
                                 <li>Accueil de la clientèle</li>
                                 <li>Enregistrement des moyens de paiement</li>
@@ -110,13 +100,13 @@
                     <div class="bg-light p-4 mt-4 rounded shadow-sm">
                         <h3>Formations</h3>
                         <ul>
-                            <li>Titre pro développeur web et web mobile</li>
+                            <li>Titre professionnel développeur web et web mobile</li>
                             <li>Licence Maths Info Éco</li>
                             <li>Baccalauréat Économique et Social Spécialité Mathématiques</li>
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
