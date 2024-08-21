@@ -23,9 +23,7 @@
                         <p><strong><i class="bi bi-envelope-fill"></i></strong> zirarimaila8@gmail.com</p>
                         <p><strong><i class="bi bi-geo-alt-fill"></i> </strong> Marseille</p>
                         <p><strong><i class="bi bi-car-front-fill"></i></strong> Permis B</p>
-                        <a href="https://github.com/Maiilaa" class="github">
-                            <p><strong><i class="bi bi-github"></i></strong> Mon Github</p>
-                        </a>
+                        <a href="https://github.com/Maiilaa" class="github"><p><strong><i class="bi bi-github"></i></strong> Mon Github</p></a>
                         <a href="https://maila-zirari.students-laplateforme.io" class="">
                             <p><strong><span class="icon-plesk">P</span></strong> Mon Plesk</p>
                         </a>
@@ -69,7 +67,7 @@
                         <h2>Expériences Professionnelles</h2>
                         <div class="mt-4">
                             <h6><strong>L'Atelier</strong></h6>
-                            <p class="date">Juin 2024</p>
+                            <p class="date">Dev Web - Juin 2024</p>
                             <ul>
                                 <li>réalisation de site web en projet collectif</li>
                                 <li>gestion de projet</li>
@@ -78,7 +76,7 @@
                         </div>
                         <div class="mt-4">
                             <strong>My Zone de Talent</strong>
-                            <p class="date">Janvier 2024</p>
+                            <p class="date">métier du numérique - Janvier 2024</p>
                             <ul>
                                 <li>Réalisation d’un site web en projet collectif</li>
                                 <li>Réalisation de maquette UX/UI</li>
@@ -88,7 +86,7 @@
                         </div>
                         <div class="mt-4">
                             <strong>BNP Paribas</strong>
-                            <p class="date">Janvier 2018</p>
+                            <p class="date">stage en banque - Janvier 2018</p>
                             <ul>
                                 <li>Accueil de la clientèle</li>
                                 <li>Enregistrement des moyens de paiement</li>

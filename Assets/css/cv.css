@@ -4,7 +4,6 @@ body {
 h1 {
     color: white;
     text-align: center;
-    margin-top: 1cm;
     font-size: 300%;
 }
 h2, h3, h4, h5 {
@@ -45,24 +44,15 @@ a {
 .progress-bar-allemand { width: 30%; background-color: #3c4daa; }
 .progress-bar-packoffice{ width: 90%; background-color: #3c4daa;}
 
-.icon-p {
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-}
+
 .icon-plesk {
     width: 24px;
     height: 24px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #007bff;
-    color: white;
+    background-color: white;
+    color: rgb(0, 0, 0);
     border-radius: 50%;
     font-size: 16px;
     font-weight: bold;
@@ -73,5 +63,11 @@ a {
     color: white;
     font-size: 200%;
     font-weight: 350;
+    margin-bottom: 1cm;
 }
+
+h2,h3{
+    font-size:180%;
+}
+
 
