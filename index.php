@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="Assets/css/cv.css?t=<?=time()?>"/>
+    <link rel="stylesheet" media="print" href="Assets/css/cv.css?t=<?=time()?>"/>
+    
     
 </head>
 <body>
@@ -35,6 +37,9 @@
                         </div>
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-css" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">CSS</div>
+                        </div>
+                        <div class="progress mb-2">
+                            <div class="progress-bar progress-bar-phpmyadmin" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">PhpMyAdmin</div>
                         </div>
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-php" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">PHP</div>
@@ -69,14 +74,14 @@
                             <h6><strong>L'Atelier</strong></h6>
                             <p class="date">Dev Web - Juin 2024</p>
                             <ul>
-                                <li>réalisation de site web en projet collectif</li>
-                                <li>gestion de projet</li>
-                                <li>mise en place et gestion de base de données</li>
+                                <li>Réalisation de site web en projet collectif</li>
+                                <li>Gestion de projet</li>
+                                <li>Mise en place et gestion de base de données</li>
                             </ul>
                         </div>
                         <div class="mt-4">
                             <strong>My Zone de Talent</strong>
-                            <p class="date">métier du numérique - Janvier 2024</p>
+                            <p class="date">Métier du numérique - Janvier 2024</p>
                             <ul>
                                 <li>Réalisation d’un site web en projet collectif</li>
                                 <li>Réalisation de maquette UX/UI</li>
@@ -86,7 +91,7 @@
                         </div>
                         <div class="mt-4">
                             <strong>BNP Paribas</strong>
-                            <p class="date">stage en banque - Janvier 2018</p>
+                            <p class="date">Stage en banque - Janvier 2018</p>
                             <ul>
                                 <li>Accueil de la clientèle</li>
                                 <li>Enregistrement des moyens de paiement</li>
@@ -106,11 +111,13 @@
                 </div>
             </div> 
         </div>
+        <div class="text-center print-btn">
+            <button class="btn btn-primary" onclick="window.print()">
+                <i class="bi bi-printer"></i> Imprimer le CV
+            </button>
+        </div>
     </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <footer>
-       
-    </footer>
 </body>
 </html>
->

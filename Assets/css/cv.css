@@ -43,6 +43,7 @@ a {
 .progress-bar-anglais { width: 50%; background-color: #3c4daa; }
 .progress-bar-allemand { width: 30%; background-color: #3c4daa; }
 .progress-bar-packoffice{ width: 90%; background-color: #3c4daa;}
+.progress-bar-phpmyadmin { width: 90%; background-color: #3c4daa; }
 
 
 .icon-plesk {
@@ -70,4 +71,8 @@ h2,h3{
     font-size:180%;
 }
 
-
+@media print {
+    .print-btn, a {
+    display: none; 
+    }
+}
