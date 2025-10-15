@@ -20,17 +20,15 @@
         <section class="container mt-5">
             <div class="row">
                 <div class="col-md-4">
-                    <section class="bg-light p-3 rounded shadow-sm">
+                    <section class="bg-light p-3 rounded shadow">
                         <p><strong><i class="bi bi-telephone-fill"></i> </strong> 07 61 82 59 78</p>
                         <p><strong><i class="bi bi-envelope-fill"></i></strong> zirarimaila8@gmail.com</p>
                         <p><strong><i class="bi bi-geo-alt-fill"></i> </strong> Marseille</p>
                         <p><strong><i class="bi bi-car-front-fill"></i></strong> Permis B</p>
                         <a href="https://github.com/Maiilaa" class="github"><p><strong><i class="bi bi-github"></i></strong> Mon Github</p></a>
-                        <a href="https://maila-zirari.students-laplateforme.io" class="">
-                            <p><strong><span class="icon-plesk">P</span></strong> Mon Plesk</p>
-                        </a>
+                        <a href="https://maila-zirari.students-laplateforme.io" class=""></a>
                     </section>
-                    <section class="bg-light p-3 mt-4 rounded shadow-sm">
+                    <section class="bg-light p-3 mt-4 rounded shadow">
                         <h4>Compétences</h4>
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-html" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML</div>
@@ -54,7 +52,7 @@
                             <div class="progress-bar progress-bar-js" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JS</div>
                         </div>
                     </section>
-                    <section class="bg-light p-3 mt-4 rounded shadow-sm">
+                    <section class="bg-light p-3 mt-4 rounded shadow">
                         <h5>Langues</h5>
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-français" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Français</div>
@@ -68,7 +66,7 @@
                     </section>
                 </div>
                 <div class="col-md-8">
-                    <section class="bg-light p-4 rounded shadow-sm">
+                    <section class="bg-light p-4 rounded shadow">
                         <h2>Expériences Professionnelles</h2>
                         <div class="mt-4">
                             <h6><strong>L'Atelier</strong></h6>
@@ -100,10 +98,10 @@
                             </ul>
                         </div>
                     </section>
-                    <section class="bg-light p-4 mt-4 rounded shadow-sm">
+                    <section class="bg-light p-4 mt-4 rounded shadow">
                         <h3>Formations</h3>
                         <ul>
-                            <li>Titre professionnel développeur web et web mobile</li>
+                            <li>Titre professionnel développeur web et web mobile (en cours)</li>
                             <li>Licence Maths Info Éco</li>
                             <li>Baccalauréat Économique et Social Spécialité Mathématiques</li>
                         </ul>

@@ -22,9 +22,7 @@ p, ul {
 .bg-light {
     background-color: #ffffff !important;
 }
-.shadow-sm {
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-}
+
 ul {
     margin-left: 1cm;
     padding: 0;
@@ -35,7 +33,14 @@ li, ul, p {
 a {
     text-decoration: none;
     color: black;
+    display: inline-block; 
+    transition: all 0.3s ease;
 }
+a:hover {
+  color: #3498db;
+  transform: translateY(-3px);
+}
+
 .progress-bar-html { width: 90%; background-color: #3c4daa; }
 .progress-bar-css { width: 90%; background-color: #3c4daa; }
 .progress-bar-php { width: 50%; background-color: #3c4daa; }
@@ -46,20 +51,6 @@ a {
 .progress-bar-allemand { width: 30%; background-color: #3c4daa; }
 .progress-bar-js{ width: 50%; background-color: #3c4daa;}
 .progress-bar-phpmyadmin { width: 90%; background-color: #3c4daa; }
-
-
-.icon-plesk {
-    width: 24px;
-    height: 24px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: rgb(0, 0, 0);
-    border-radius: 50%;
-    font-size: 16px;
-    font-weight: bold;
-}
 
 .soustitre{
     text-align: center;
