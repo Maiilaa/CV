@@ -17,10 +17,10 @@
         <p class="soustitre">Apprenti Développeur Web</p>
     </header>
     <main>
-        <div class="container mt-5">
+        <section class="container mt-5">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="bg-light p-3 rounded shadow-sm">
+                    <section class="bg-light p-3 rounded shadow-sm">
                         <p><strong><i class="bi bi-telephone-fill"></i> </strong> 07 61 82 59 78</p>
                         <p><strong><i class="bi bi-envelope-fill"></i></strong> zirarimaila8@gmail.com</p>
                         <p><strong><i class="bi bi-geo-alt-fill"></i> </strong> Marseille</p>
@@ -29,8 +29,8 @@
                         <a href="https://maila-zirari.students-laplateforme.io" class="">
                             <p><strong><span class="icon-plesk">P</span></strong> Mon Plesk</p>
                         </a>
-                    </div>
-                    <div class="bg-light p-3 mt-4 rounded shadow-sm">
+                    </section>
+                    <section class="bg-light p-3 mt-4 rounded shadow-sm">
                         <h4>Compétences</h4>
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-html" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML</div>
@@ -45,16 +45,16 @@
                             <div class="progress-bar progress-bar-php" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">PHP</div>
                         </div>
                         <div class="progress mb-2">
-                            <div class="progress-bar progress-bar-github" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">GitHub</div>
+                            <div class="progress-bar progress-bar-github" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">GitHub</div>
                         </div>
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-figma" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Figma</div>
                         </div>
                         <div class="progress mb-2">
-                            <div class="progress-bar progress-bar-packoffice" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">PackOffice</div>
+                            <div class="progress-bar progress-bar-js" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JS</div>
                         </div>
-                    </div>
-                    <div class="bg-light p-3 mt-4 rounded shadow-sm">
+                    </section>
+                    <section class="bg-light p-3 mt-4 rounded shadow-sm">
                         <h5>Langues</h5>
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-français" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Français</div>
@@ -65,14 +65,14 @@
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-allemand" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Allemand</div>
                         </div>
-                    </div>
+                    </section>
                 </div>
                 <div class="col-md-8">
-                    <div class="bg-light p-4 rounded shadow-sm">
+                    <section class="bg-light p-4 rounded shadow-sm">
                         <h2>Expériences Professionnelles</h2>
                         <div class="mt-4">
                             <h6><strong>L'Atelier</strong></h6>
-                            <p class="date">Dev Web - Juin 2024</p>
+                            <p class="date">Dev Web - Juin 2025</p>
                             <ul>
                                 <li>Réalisation de site web en projet collectif</li>
                                 <li>Gestion de projet</li>
@@ -99,20 +99,20 @@
                                 <li>Gestion de dossiers</li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="bg-light p-4 mt-4 rounded shadow-sm">
+                    </section>
+                    <section class="bg-light p-4 mt-4 rounded shadow-sm">
                         <h3>Formations</h3>
                         <ul>
                             <li>Titre professionnel développeur web et web mobile</li>
                             <li>Licence Maths Info Éco</li>
                             <li>Baccalauréat Économique et Social Spécialité Mathématiques</li>
                         </ul>
-                    </div>
+                    </section>
                 </div>
             </div> 
-        </div>
+        </section>
         <div class="text-center print-btn">
-            <button class="btn btn-primary" onclick="window.print()">
+            <button class="btn btn-secondary" onclick="window.print()">
                 <i class="bi bi-printer"></i> Imprimer le CV
             </button>
         </div>

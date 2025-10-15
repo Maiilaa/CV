@@ -1,8 +1,10 @@
 body {
     background-color: #3c4daa;
+    -webkit-print-color-adjust: exact; 
+    print-color-adjust: exact; 
 }
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 300%;
 }
@@ -37,12 +39,12 @@ a {
 .progress-bar-html { width: 90%; background-color: #3c4daa; }
 .progress-bar-css { width: 90%; background-color: #3c4daa; }
 .progress-bar-php { width: 50%; background-color: #3c4daa; }
-.progress-bar-github { width: 30%; background-color: #3c4daa; }
+.progress-bar-github { width: 90%; background-color: #3c4daa; }
 .progress-bar-figma { width: 60%; background-color: #3c4daa; }
 .progress-bar-français { width: 100%; background-color: #3c4daa; }
 .progress-bar-anglais { width: 50%; background-color: #3c4daa; }
 .progress-bar-allemand { width: 30%; background-color: #3c4daa; }
-.progress-bar-packoffice{ width: 90%; background-color: #3c4daa;}
+.progress-bar-js{ width: 50%; background-color: #3c4daa;}
 .progress-bar-phpmyadmin { width: 90%; background-color: #3c4daa; }
 
 
@@ -61,7 +63,7 @@ a {
 
 .soustitre{
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 200%;
     font-weight: 350;
     margin-bottom: 1cm;
@@ -70,10 +72,25 @@ a {
 h2,h3{
     font-size:180%;
 }
+.print-btn .btn {
+    transition: all 0.3s ease;
+}
+
+.print-btn .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.progress mb-2{
+    color:#ffffff;
+}
+
 
 @media print {
     .print-btn, a {
     display: none; 
+    margin-top: 40px;
+    text-align: center;
     }
-    
+
+
 }
