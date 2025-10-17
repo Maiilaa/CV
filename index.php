@@ -36,20 +36,23 @@
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-css" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">CSS</div>
                         </div>
-                        <div class="progress mb-2">
-                            <div class="progress-bar progress-bar-phpmyadmin" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">PhpMyAdmin</div>
-                        </div>
-                        <div class="progress mb-2">
-                            <div class="progress-bar progress-bar-php" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">PHP</div>
-                        </div>
-                        <div class="progress mb-2">
+                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-github" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">GitHub</div>
                         </div>
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-figma" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Figma</div>
                         </div>
                         <div class="progress mb-2">
+                            <div class="progress-bar progress-bar-phpmyadmin" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">PhpMyAdmin</div>
+                        </div>
+                        <div class="progress mb-2">
                             <div class="progress-bar progress-bar-js" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JS</div>
+                        </div>
+                        <div class="progress mb-2">
+                            <div class="progress-bar progress-bar-php" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">PHP</div>
+                        </div>
+                        <div class="progress mb-2">
+                            <div class="progress-bar progress-bar-docker" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Docker</div>
                         </div>
                     </section>
                     <section class="bg-light p-3 mt-4 rounded shadow">
@@ -62,6 +65,9 @@
                         </div>
                         <div class="progress mb-2">
                             <div class="progress-bar progress-bar-allemand" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Allemand</div>
+                        </div>
+                        <div class="progress mb-2">
+                            <div class="progress-bar progress-bar-arabe" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Arabe</div>
                         </div>
                     </section>
                 </div>

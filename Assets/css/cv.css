@@ -45,12 +45,14 @@ a:hover {
 .progress-bar-css { width: 90%; background-color: #3c4daa; }
 .progress-bar-php { width: 50%; background-color: #3c4daa; }
 .progress-bar-github { width: 90%; background-color: #3c4daa; }
-.progress-bar-figma { width: 60%; background-color: #3c4daa; }
+.progress-bar-figma { width: 90%; background-color: #3c4daa; }
 .progress-bar-français { width: 100%; background-color: #3c4daa; }
 .progress-bar-anglais { width: 50%; background-color: #3c4daa; }
 .progress-bar-allemand { width: 30%; background-color: #3c4daa; }
+.progress-bar-arabe { width: 40%; background-color: #3c4daa; }
 .progress-bar-js{ width: 50%; background-color: #3c4daa;}
 .progress-bar-phpmyadmin { width: 90%; background-color: #3c4daa; }
+.progress-bar-docker { width: 50%; background-color: #3c4daa; }
 
 .soustitre{
     text-align: center;
