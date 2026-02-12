@@ -65,13 +65,12 @@ a:hover {
 h2,h3{
     font-size:180%;
 }
-.print-btn .btn {
-    transition: all 0.3s ease;
-}
+
 
 .print-btn .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transition: all 0.5s ease;
 }
 .progress mb-2{
     color:#ffffff;
