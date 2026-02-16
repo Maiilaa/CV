@@ -21,11 +21,11 @@
             <div class="row">
                 <div class="col-md-4">
                     <section class="bg-light p-3 rounded shadow">
-                        <p><strong><i class="bi bi-telephone-fill"></i> </strong> 07 61 82 59 78</p>
-                        <p><strong><i class="bi bi-envelope-fill"></i></strong> zirarimaila8@gmail.com</p>
-                        <p><strong><i class="bi bi-geo-alt-fill"></i> </strong> Marseille</p>
-                        <p><strong><i class="bi bi-car-front-fill"></i></strong> Permis B</p>
-                        <a href="https://github.com/Maiilaa" class="github"><p><strong><i class="bi bi-github"></i></strong> Mon Github</p></a>
+                        <p><strong><span class="bi bi-telephone-fill"></span> </strong> 07 61 82 59 78</p>
+                        <p><strong><span class="bi bi-envelope-fill"></span></strong> zirarimaila8@gmail.com</p>
+                        <p><strong><span class="bi bi-geo-alt-fill"></span> </strong> Marseille</p>
+                        <p><strong><span class="bi bi-car-front-fill"></span></strong> Permis B</p>
+                        <a href="https://github.com/Maiilaa" class="github"><p><strong><span class="bi bi-github"></span></strong> Mon Github</p></a>
                         <a href="https://maila-zirari.students-laplateforme.io" class=""></a>
                     </section>
                     <section class="bg-light p-3 mt-4 rounded shadow">
@@ -117,7 +117,7 @@
         </section>
         <div class="text-center print-btn">
             <button class="btn btn-secondary" onclick="window.print()">
-                <i class="bi bi-printer"></i> Imprimer le CV
+                <span class="bi bi-printer"></span> Imprimer le CV
             </button>
         </div>
     </main>
